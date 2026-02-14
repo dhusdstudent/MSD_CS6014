@@ -1,0 +1,45 @@
+------------------------------------------QUESTION 2: Throttling------------------------------------------
+    QUESTION:
+What is the difference between flow control and congestion control? Describe the way TCP implements each of these features.
+
+    ANSWER:
+Both flow control and congestion control are methods to keep data flowing smoothly between sending and receiving nodes by limiting the data stream.
+The main difference is that flow control puts limitation on the rate of data that the sender can transmit, while congestion control limits
+the flow of data that the receiver can take in.
+
+The TCP implements flow control by having each ACK that the receiver gives to the sender contain a cue for how many bytes the receiver can stand to receive.
+
+The TCP implements congestion control by having the sender provide the receiver with a slightly increasing number of packets until the point that the
+packet is dropped, after which the sender responds by defaulting back to the base number of packets. It'll then begin slowly increasing the rate again,
+until the same thing occurs, again and again.
+
+
+------------------------------------------QUESTION 3: Routers------------------------------------------
+
+    QUESTION:
+A company has 3 groups that each hava a subnet on the corporate network. Group A uses subnet 1.1.1.0/24. Group B uses 1.1.2.0/24. Group C uses subnet
+1.1.3.0/24.
+
+Each group has a router. There is a link between each pair of routers. A and B have a link: 1.1.4.0 (on A) to 1.1.4.1 (on B) A and C have a link: 1.1.5.0
+(on A) to 1.1.5.1 (on C) B and C have a link: 1.1.6.0 (on B) to 1.1.6.1 (on C).
+
+What subnet prefix (the smallest
+ one) describes the entire collection of addresses, including the routers as identified in the network where they are
+linked?
+
+    ANSWER:
+1.1.0.0/16
+
+    QUESTION:
+Assume the router for group A has 4 ports: port 1 is connected to the group subnet, port 2 is connected to router B, port 3 is connected to router C, and
+port 4 is connected to the ISP (i.e., the rest of the internet). Write out router A's forwarding table.
+
+    ANSWER:
+Dest                    Hop                         Port
+1.1.1.0/24          Direct                           1
+1.1.2.0/24          via 1.1.4.1                      2
+1.1.3.0/24          via 1.1.5.1                      3
+1.1.4.0/24          Direct                           2
+1.1.5.0/24          Direct                           3
+1.1.6.0/24          via 1.1.4.1 or 1.1.5.1          2 or 3
+0.0.0.0/24          via ISP                          4

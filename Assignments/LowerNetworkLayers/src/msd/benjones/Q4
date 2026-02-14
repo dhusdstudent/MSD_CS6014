@@ -1,0 +1,8 @@
+Implement the onInit and onDistanceMessage methods in the Router class of the following code:
+
+Implement the method so that the routers use the Bellman-Ford algorithm to compute routing information. Use the static
+methods in the Network class to help you with this. These methods shouldn't be more than 20 lines of code or so!
+
+Once you have a working implementation, test your algorithm on a variety of network sizes. Plot the number of messages
+required to converge as a function of network size. Since the networks are probablisitically generated, you might want
+to try several networks of each size to get a sense of the distribution.
