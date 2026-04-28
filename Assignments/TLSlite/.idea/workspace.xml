@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="863068d6-5ad2-4d65-a480-1f151af0e437" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BufferOverflowAttack/BufferOverflowAttack.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BufferOverflowAttack/BufferOverflowAttack.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BufferOverflowAttack/BufferOverflowAttack.xcodeproj/project.xcworkspace/xcuserdata/demih.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BufferOverflowAttack/BufferOverflowAttack.xcodeproj/xcuserdata/demih.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BufferOverflowAttack/BufferOverflowAttack/login.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BufferOverflowAttack/BufferOverflowAttack/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/.idea/Cryptography.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/Questions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/cipher.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/cipher.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/rc4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cryptography/rc4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/Assignment01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkpoint.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLSlite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainPieces/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainPieces/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainPieces/Handshake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainPieces/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cryptography/AES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cryptography/DiffieHellman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cryptography/HDKF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cryptography/HMAC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cryptography/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cryptography/RSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cryptography/SessionKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/LLDB/.idea/LLDB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/LLDB/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/LLDB/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/LLDB/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/LLDB/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/LLDB/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/LLDB/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/LLDB/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/Assignment01/Packet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/Assignment01/Packet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/Assignment01/Ping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/Assignment01/Ping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/Assignment01/Plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/Assignment01/Plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/Assignment01/Question1" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/Assignment01/Question1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/Assignment01/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BufferOverflowAttack/BufferOverflowAttack/password.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/PacketDelayMeasurement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/PacketDelayMeasurement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/PingOslo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/PingOslo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/trace1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/trace1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week02/PacketDelayMeasurement/trace2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PacketDelayMeasurement/trace2.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3BPtaut458pKy0wW6isI7ZTFYFu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="863068d6-5ad2-4d65-a480-1f151af0e437" name="Changes" comment="" />
+      <created>1774402599236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774402599236</updated>
+      <workItem from="1774402600346" duration="22853000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

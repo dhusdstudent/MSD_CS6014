@@ -1,0 +1,41 @@
+QUESTION:
+
+Every time a packet is received at the router, it is time-stamped (TA). It is also time-stamped when it is about to
+leave link K and arrive at the next hop (TB). Note that this would be a difficult measurement to actually perform!
+
+When 5 packets of size 500 bytes are transmitted through the link K, TB–TA is measured to be 10 ms, 2.8 ms, 2.4 ms,
+4 ms, and 5.5 ms. When 5 packets of size 1000 bytes are transmitted through the link K, TB–TA is measured to be
+11.0 ms, 10 ms, 2.8 ms, 3.0 ms, and 5.5 ms. Assume that processing delay at the router is negligible.
+
+What is the average queuing delay experienced by the 1000-byte packets?
+
+What are reasonable estimates of transmission and propagation delays that will be experienced by a packet of size 600
+bytes sent through the link K?
+
+ANSWER:
+
+---- Part 1 ----
+
+2.8 for 1000
+
+11.0 - 2.8 = 8.2
+10 - 2.8 = 7.2
+2.8 - 2.8 = 0
+3.0 - 2.8 = .2
+5.5 - 2.8 = 2.7
+
+(8.2 + 7.2 + .2 + 2.7) / 5(variables) =
+FINAL: for packets the size of 1000 bytes, there's an average delay of 3.66 ms.
+
+---- Part 2 ----
+2.8 for 1000
+2.4 for 500
+
+2.8 - 2.4 = .4ms
+.4/500 = 0.0008 ms/byte
+
+so 600 would be 600 * 0.0008 = .48ms
+for 600 there would be a transmission delay of .48ms
+
+2.4 - .4 = 2
+for 600 there would be a propagation delay of 2.0 ms

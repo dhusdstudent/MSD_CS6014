@@ -1,0 +1,85 @@
+ 1  10.0.0.1 (10.0.0.1)  8.713 ms  4.567 ms  5.485 ms
+ 2  10.27.166.3 (10.27.166.3)  14.707 ms
+    10.27.166.2 (10.27.166.2)  22.138 ms
+    10.27.166.3 (10.27.166.3)  16.450 ms
+ 3  po-54-335-rur201.orem.ut.utah.comcast.net (96.110.232.117)  15.295 ms
+    po-54-336-rur202.orem.ut.utah.comcast.net (96.110.232.133)  15.908 ms
+    po-54-335-rur201.orem.ut.utah.comcast.net (96.110.232.117)  22.613 ms
+ 4  po-200-xar02.orem.ut.utah.comcast.net (69.139.247.17)  32.085 ms
+    po-200-xar01.orem.ut.utah.comcast.net (69.139.231.101)  18.328 ms
+    po-200-xar02.orem.ut.utah.comcast.net (69.139.247.17)  14.983 ms
+ 5  be-304-arsc1.saltlakecity.ut.utah.comcast.net (96.216.78.13)  16.709 ms
+    po-2-xar01.orem.ut.utah.comcast.net (68.87.170.121)  18.893 ms
+    be-304-arsc1.saltlakecity.ut.utah.comcast.net (96.216.78.13)  17.987 ms
+ 6  be-304-arsc1.saltlakecity.ut.utah.comcast.net (96.216.78.13)  19.491 ms
+    be-36741-cs04.champa.co.ibone.comcast.net (96.110.43.237)  32.398 ms
+    be-304-arsc1.saltlakecity.ut.utah.comcast.net (96.216.78.13)  16.078 ms
+ 7  be-3411-pe11.910fifteenth.co.ibone.comcast.net (96.110.33.126)  32.152 ms
+    be-36741-cs04.champa.co.ibone.comcast.net (96.110.43.237)  29.302 ms
+    be-3111-pe11.910fifteenth.co.ibone.comcast.net (96.110.33.114)  30.012 ms
+ 8  be-3311-pe11.910fifteenth.co.ibone.comcast.net (96.110.33.122)  30.802 ms *  27.269 ms
+ 9  den-bb1-link.ip.twelve99.net (62.115.138.68)  33.216 ms *  31.059 ms
+10  den-bb1-link.ip.twelve99.net (62.115.138.68)  32.825 ms
+    chi-bb1-link.ip.twelve99.net (62.115.115.77)  66.184 ms
+    den-bb1-link.ip.twelve99.net (62.115.138.68)  27.872 ms
+11  nyk-bb5-link.ip.twelve99.net (62.115.139.32)  75.325 ms
+    chi-bb1-link.ip.twelve99.net (62.115.115.77)  64.992 ms
+    nyk-bb5-link.ip.twelve99.net (62.115.139.32)  70.678 ms
+12  nyk-bb5-link.ip.twelve99.net (62.115.139.32)  69.406 ms
+    rest-bb1-link.ip.twelve99.net (62.115.139.35)  71.566 ms
+    nyk-bb5-link.ip.twelve99.net (62.115.139.32)  74.881 ms
+13  ash-b2-link.ip.twelve99.net (62.115.123.123)  71.139 ms
+    rest-bb1-link.ip.twelve99.net (62.115.139.35)  71.474 ms
+    ash-b2-link.ip.twelve99.net (62.115.138.190)  69.829 ms
+14  ash-b2-link.ip.twelve99.net (62.115.123.123)  72.598 ms
+    nordunet-ic-309102.ip.twelve99-cust.net (213.248.85.174)  72.053 ms *
+15  us-man2.nordu.net (109.105.97.142)  80.973 ms
+    nordunet-ic-309102.ip.twelve99-cust.net (213.248.85.174)  75.650 ms
+    us-man2.nordu.net (109.105.97.142)  76.896 ms
+16  us-man2.nordu.net (109.105.97.142)  79.994 ms
+    nl-ams.nordu.net (109.105.97.65)  165.298 ms
+    us-man2.nordu.net (109.105.97.142)  78.503 ms
+17  * nl-ams.nordu.net (109.105.97.65)  170.607 ms *
+18  * fi-csc.nordu.net (109.105.97.76)  182.536 ms *
+19  ndn-gw.funet.fi (109.105.102.169)  183.695 ms
+    fi-csc.nordu.net (109.105.97.76)  178.817 ms
+    ndn-gw.funet.fi (109.105.102.169)  174.912 ms
+20  ndn-gw.funet.fi (109.105.102.169)  174.549 ms
+    helsinki2.ip.funet.fi (86.50.255.251)  174.834 ms
+    ndn-gw.funet.fi (109.105.102.169)  181.637 ms
+21  r2.helsinki.kampus.funet.fi (193.167.244.247)  174.814 ms
+    helsinki2.ip.funet.fi (86.50.255.251)  176.080 ms
+    r2.helsinki.kampus.funet.fi (193.167.244.247)  181.071 ms
+22  r2.helsinki.kampus.funet.fi (193.167.244.247)  175.250 ms
+    ulkoverkko-vrrp1.fe.helsinki.fi (193.166.130.253)  174.669 ms
+    r2.helsinki.kampus.funet.fi (193.167.244.247)  185.221 ms
+23  kumpula1-r1.fe.helsinki.fi (128.214.173.242)  180.932 ms
+    ulkoverkko-vrrp1.fe.helsinki.fi (193.166.130.253)  177.010 ms
+    kumpula1-r1.fe.helsinki.fi (128.214.173.242)  175.153 ms
+24  kumpula1-r1.fe.helsinki.fi (128.214.173.242)  178.408 ms *  183.818 ms
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+31  * * *
+32  * * *
+33  * * *
+34  * * *
+35  * * *
+36  * * *
+37  * * *
+38  * * *
+39  * * *
+40  * * *
+41  * * *
+42  * * *
+43  * * *
+44  * * *
+45  * * *
+46  * * *
+47  * * *
+48  * * *
+49  * * *
+50  * *

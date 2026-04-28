@@ -1,0 +1,45 @@
+------------------------------------------------Question 1 (5 points)--------------------------------------------------
+A block cipher with an 8-bit block size is very easy to break with a known-plaintext attack, assuming each block is
+just encrypted independently with the same key. Describe how you would do so.
+
+Hint: There's a version of a very similar challenge in many newspapers every day called cryptograms.
+Here's an example Links to an external site..
+
+ANSWER------------------
+The fact that this would be a 'known plaintext' attack implies that you already know the ciphertext - plaintext pairings,
+and the nature of the cipher itself means that these pairings will stay the same even as more plaintext is decrypted.
+So to break this cipher, you'd log the pairings you know and keep parsing through newly output ciphertext to determine
+the rest of the pairings (there can only be 256 possible values, so it wouldn't take especially long to decipher).
+
+Once you've logged all plaintext-ciphertext pairings, you'll be able to encode all past and future messages.
+
+-----------------------------------------------Question 2 (10 points)-------------------------------------------------
+Assume you're sending a long message using a block cipher (like AES) with the following scheme: split the message into
+block-sized chunks, then encrypt each with the same key. Basically, Alice sends Bob AES(m1, k), AES(m2, k), AES(m3, k),
+etc.
+
+Part A (3 points)------------------
+Even if they can't decrypt blocks, what information can an eavesdropper discern from this scheme? Hint: Imagine that
+Alice is sending a table of data where each cell is exactly one block of data.
+
+ANSWER------------------
+They would be able to detect repeating patterns which, over time, can start to be interpreted as language/plaintext.
+
+Part B (4 points)------------------
+Things are actually even worse! A malicious attacker can actually CHANGE the message that Bob receives from Alice
+(slightly). How? This is particularly bad if the attacker knows the structure of the data being sent (like in part A).
+
+ANSWER------------------
+Technically they could be employing a man-in-the-middle attack to actively change the text being transmitted, but under
+the assumption that they still don't understand it - and only understand the patterns, as mentioned in part A - it's
+more likely that any changes they make would be related to bit-flipping. For this type of attack specifically, they
+wouldn't necessarily need to understand the exact text itself to alter it, which would then alter the plaintext when
+it's decrypted later on.
+
+Part C (3 points)------------------
+How could you modify the scheme to mitigate/prevent these types of attack?
+
+ANSWER------------------
+Besides changing the type of cipher entirely, your other best bet would be to use an encryption schemes like the
+Galois/Counter or ChaCha, which combine your original cipher with a MAC. This means that your message is changed by
+a bad actor, it'll cause an authentication check to fail, and will outright discard the compromised message.
